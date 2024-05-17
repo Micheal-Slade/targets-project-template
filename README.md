@@ -14,6 +14,7 @@ A reproducible pipeline template that can be cloned and set you up into an analy
 - {pak} for pakage loading
 - {targets} which manages to the project structure
 - {dotenv} which is used to set up environment variables for the project
+- {checkmate} for writing concise testing checks to your functions
 
 2. Alongside the packages that are shipped as part of the project directory; you will have some files to assist with environment and project management. This workspace setting have been set up for `RStudio` users as well as `VSCode`({jsonlite}, {rlang}) for other IDEs your millage may vary.
 
