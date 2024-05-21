@@ -2,7 +2,7 @@
 
 This is a template repo for getting a targets project started with as much reproducibility in place as possible.
 
-## TLDR
+## Quick Start Steps
 
 A reproducible pipeline template that can be cloned and set you up into an analytical workflow within minutes.
 
