@@ -11,7 +11,7 @@ A reproducible pipeline template that can be cloned and set you up into an analy
 1. The project comes with the following packages in place
 
 - {renv} for dependency management
-- {pak} for pakage loading
+- {pak} for package loading
 - {targets} which manages to the project structure
 - {dotenv} which is used to set up environment variables for the project
 - {checkmate} for writing concise testing checks to your functions

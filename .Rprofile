@@ -18,13 +18,13 @@ options(renv.config.pak.enabled = TRUE)
 # pak::pkg_install(c("dotenv"))
 
 # # Targets packages
-# pak::pkg_install(c("targets", "dplyr", "tarchetypes", "cpp11"))
-
+# pak::pkg_install(c("targets", "dplyr", "tarchetypes", "cpp11", "tibble"))
+pak::pkg_install("visNetwork")
 # targets::use_targets()
 
 # Testing layer
 # pak::pkg_install("checkmate")
-# pak::pkg_install("visNetwork")
+
 
 # renv::snapshot()
 
