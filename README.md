@@ -6,6 +6,12 @@ This is a template repo for getting a targets project started with as much repro
 
 A reproducible pipeline template that can be cloned and set you up into an analytical workflow within minutes.
 
+1. Clone or download a zip file of this repo.
+2. If you are using VSCode as the folder to your workspace and if you are using RStudio you can open the project using the `.Rproj` file in the workspace.
+3. Run `renv::restore` then run `renv::snapshot` to update your lockfile.
+
+That's all you will need to get started and you can begin building your Reproducible Analytical Pipeline (RAP)
+
 ## What's set up for you
 
 1. The project comes with the following packages in place
@@ -23,7 +29,6 @@ A reproducible pipeline template that can be cloned and set you up into an analy
 - `.gitignore` set up your ignore patterns for the project.
 - `renv.lock` snapshot of the renv environment
 - `_targets.R` targets pipeline configuration
-- 
 
 ## What's in it for you?
 
