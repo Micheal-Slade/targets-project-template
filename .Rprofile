@@ -19,7 +19,7 @@ options(renv.config.pak.enabled = TRUE)
 
 # # Targets packages
 # pak::pkg_install(c("targets", "dplyr", "tarchetypes", "cpp11", "tibble"))
-pak::pkg_install("visNetwork")
+# pak::pkg_install("visNetwork")
 # targets::use_targets()
 
 # Testing layer
@@ -28,4 +28,4 @@ pak::pkg_install("visNetwork")
 
 # renv::snapshot()
 
-renv::restore()
+# renv::restore()
