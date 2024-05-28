@@ -1,8 +1,13 @@
 # if (!requireNamespace("renv", quietly = TRUE)) {
 #   install.packages("renv")
 # }
+if (file.exists("renv")) {
+    source("renv/activate.R")
+} else {
+    message("No 'renv' directory found; renv won't be activated.")
 
-source("renv/activate.R")
+}
+
 
 
 # Install pak from CRAN
